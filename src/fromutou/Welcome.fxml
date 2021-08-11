@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="550.0" prefWidth="340.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fromutou.WelcomeController">
+   <children>
+      <ImageView fitHeight="550.0" fitWidth="340.0">
+         <image>
+            <Image url="@../pictures/خلفية%20سماوي.png" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="80.0" layoutX="73.0" layoutY="259.0" opacity="0.32" stroke="#3a46a6" strokeType="INSIDE" strokeWidth="0.0" style="-fx-arc-height: 30; -fx-arc-width: 30;" width="203.0" />
+      <ImageView fitHeight="154.0" fitWidth="195.0" layoutX="67.0" layoutY="94.0">
+         <image>
+            <Image url="@../pictures/لوقو%20ام%20القرى3.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="start_btn" layoutX="132.0" layoutY="373.0" mnemonicParsing="false" onAction="#handleStart" prefHeight="50.0" prefWidth="85.0" style="-fx-background-radius: 22;" text="Start" textFill="#1c1c1e">
+         <font>
+            <Font name="Comic Sans MS Bold" size="16.0" />
+         </font>
+      </Button>
+      <Text fill="#0a0a0a" layoutX="75.0" layoutY="295.0" strokeType="OUTSIDE" strokeWidth="0.0" text="We are happy to serve you at From U to U" textAlignment="CENTER" wrappingWidth="202.66662621498108">
+         <font>
+            <Font name="Comic Sans MS" size="18.0" />
+         </font>
+         <effect>
+            <DropShadow color="#2e8f94" />
+         </effect></Text>
+   </children>
+</AnchorPane>

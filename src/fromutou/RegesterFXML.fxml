@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="550.0" prefWidth="340.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fromutou.RegesterFXMLController">
+   <children>
+      <ImageView fitHeight="550.0" fitWidth="340.0">
+         <image>
+            <Image url="@../pictures/خلفية%20سماوي.png" />
+         </image>
+      </ImageView>
+      <HBox fx:id="hbox_sigin" prefHeight="81.0" prefWidth="340.0" style="-fx-background-color: white;">
+         <children>
+            <Button mnemonicParsing="false" onAction="#loginPaneShow" prefHeight="81.0" prefWidth="170.0" style="-fx-background-color: #a1d4f0;" text="Log In">
+               <font>
+                  <Font name="Ebrima" size="31.0" />
+               </font>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#RegesterPaneShow" opacity="0.44" prefHeight="81.0" prefWidth="170.0" style="-fx-background-color: #a1d4f0;" text="Register">
+               <font>
+                  <Font name="Ebrima" size="30.0" />
+               </font>
+            </Button>
+         </children>
+      </HBox>
+      <HBox fx:id="hbox_regester" prefHeight="81.0" prefWidth="340.0" visible="false">
+         <children>
+            <Button mnemonicParsing="false" onAction="#loginPaneShow" opacity="0.55" prefHeight="81.0" prefWidth="170.0" style="-fx-background-color: #a1d4f0;" text="Log In">
+               <font>
+                  <Font name="Ebrima" size="30.0" />
+               </font>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#RegesterPaneShow" prefHeight="81.0" prefWidth="170.0" style="-fx-background-color: #a1d4f0;" text="Register">
+               <font>
+                  <Font name="Ebrima" size="30.0" />
+               </font>
+            </Button>
+         </children>
+      </HBox>
+      <AnchorPane fx:id="regester_pane" layoutY="124.0" onKeyPressed="#keyPressedRegister" prefHeight="310.0" prefWidth="340.0" style="-fx-background-color: white;" visible="false">
+         <children>
+            <TextField fx:id="regestusername" layoutX="153.0" layoutY="57.0" />
+            <TextField fx:id="email" layoutX="153.0" layoutY="103.0" />
+            <Label layoutX="53.0" layoutY="59.0" text="Username">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="69.0" layoutY="105.0" text="Email">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="55.0" layoutY="155.0" text="Password">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="26.0" layoutY="203.0" text="By clicking create Account, you agree to our terms &amp; conditions " textFill="#a39797">
+               <font>
+                  <Font size="10.0" />
+               </font>
+            </Label>
+            <Label layoutX="76.0" layoutY="218.0" text="and that you have read our privacy policy" textFill="#a39797">
+               <font>
+                  <Font size="10.0" />
+               </font>
+            </Label>
+            <Button fx:id="regesterbutton" layoutX="107.0" layoutY="249.0" mnemonicParsing="false" onAction="#registerAction" style="-fx-background-color: #a1d4f0;" text="Create Account">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Button>
+            <PasswordField fx:id="regestpassword" layoutX="153.0" layoutY="153.0" />
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="sigin_pane" layoutY="124.0" onKeyPressed="#keyPressedSignin" prefHeight="302.0" prefWidth="340.0" style="-fx-background-color: white;">
+         <children>
+            <TextField fx:id="siginusername" layoutX="148.0" layoutY="73.0" />
+            <Label layoutX="49.0" layoutY="75.0" text="Username">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="51.0" layoutY="128.0" text="Password">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <CheckBox layoutX="121.0" layoutY="178.0" mnemonicParsing="false" text="Remember me" />
+            <Button fx:id="loginbutton" layoutX="137.0" layoutY="225.0" mnemonicParsing="false" onAction="#loginAction" style="-fx-background-color: #a1d4f0;" text="log in">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Button>
+            <PasswordField fx:id="siginpassword" layoutX="148.0" layoutY="126.0" />
+         </children>
+      </AnchorPane>
+      <ImageView fitHeight="68.0" fitWidth="76.0" layoutX="130.0" layoutY="457.0" opacity="0.66">
+         <image>
+            <Image url="@../pictures/لوقو%20ام%20القرى3.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

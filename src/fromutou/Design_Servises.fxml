@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.ContextMenu?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="550.0" prefWidth="340.0" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fromutou.Design_ServisesController">
+   <children>
+      <ImageView fitHeight="550.0" fitWidth="340.0">
+         <image>
+            <Image url="@../pictures/خلفية%20سماوي.png" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#2667a32b" height="406.0" layoutX="18.0" layoutY="93.0" opacity="0.49" stroke="#3a46a6" strokeType="INSIDE" strokeWidth="0.0" style="-fx-arc-height: 30; -fx-arc-width: 30;" width="300.0" />
+      <Pane prefHeight="550.0" prefWidth="340.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+         <children>
+            <ScrollPane layoutX="36.0" layoutY="200.0" prefHeight="289.0" prefWidth="265.0" style="-fx-background-radius: 7; -fx-color: #ffff;">
+               <content>
+                  <GridPane onMouseClicked="#move_service" prefHeight="298.0" prefWidth="242.0" style="-fx-background-color: #ffffff;">
+                    <columnConstraints>
+                      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                    </columnConstraints>
+                    <rowConstraints>
+                      <RowConstraints maxHeight="144.0" minHeight="10.0" prefHeight="132.0" vgrow="SOMETIMES" />
+                      <RowConstraints maxHeight="132.0" minHeight="10.0" prefHeight="132.0" vgrow="SOMETIMES" />
+                    </rowConstraints>
+                     <children>
+                        <StackPane prefHeight="135.0" prefWidth="132.0">
+                           <children>
+                              <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#c5dceb" height="121.0" stroke="#3a46a6" strokeType="INSIDE" style="-fx-arc-height: 30; -fx-arc-width: 30;" width="98.0" />
+                              <StackPane prefHeight="135.0" prefWidth="132.0">
+                                 <children>
+                                    <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0">
+                                       <children>
+                                          <ImageView fitHeight="85.0" fitWidth="90.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../pictures/png-logo-design-897.jpg" />
+                                             </image>
+                                             <VBox.margin>
+                                                <Insets bottom="5.0" />
+                                             </VBox.margin>
+                                          </ImageView>
+                                          <Label alignment="TOP_CENTER" text="Design Logo">
+                                             <font>
+                                                <Font name="Comic Sans MS" size="11.0" />
+                                             </font>
+                                             <VBox.margin>
+                                                <Insets top="-2.0" />
+                                             </VBox.margin>
+                                          </Label>
+                                       </children>
+                                    </VBox>
+                                 </children>
+                              </StackPane>
+                           </children>
+                        </StackPane>
+                        <StackPane prefHeight="135.0" prefWidth="132.0" GridPane.columnIndex="1">
+                           <children>
+                              <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#c5dceb" height="121.0" stroke="#3a46a6" strokeType="INSIDE" style="-fx-arc-height: 30; -fx-arc-width: 30;" width="98.0" />
+                              <StackPane prefHeight="135.0" prefWidth="132.0">
+                                 <children>
+                                    <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0">
+                                       <children>
+                                          <ImageView fitHeight="85.0" fitWidth="90.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../pictures/900x900-1_-5f06ff724170e.jpg" />
+                                             </image>
+                                             <VBox.margin>
+                                                <Insets bottom="5.0" />
+                                             </VBox.margin>
+                                          </ImageView>
+                                          <Label alignment="TOP_CENTER" text="Design Adv.">
+                                             <font>
+                                                <Font name="Comic Sans MS" size="11.0" />
+                                             </font>
+                                             <VBox.margin>
+                                                <Insets top="-2.0" />
+                                             </VBox.margin>
+                                          </Label>
+                                       </children>
+                                    </VBox>
+                                 </children>
+                              </StackPane>
+                           </children>
+                        </StackPane>
+                        <StackPane prefHeight="135.0" prefWidth="132.0" GridPane.rowIndex="1">
+                           <children>
+                              <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#c5dceb" height="121.0" stroke="#3a46a6" strokeType="INSIDE" style="-fx-arc-height: 30; -fx-arc-width: 30;" width="98.0" />
+                              <StackPane prefHeight="135.0" prefWidth="132.0">
+                                 <children>
+                                    <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0">
+                                       <children>
+                                          <ImageView fitHeight="85.0" fitWidth="90.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../pictures/A_dvDvTYp4JckAAAAAAAAAAAAAARQnAQ.png" />
+                                             </image>
+                                             <VBox.margin>
+                                                <Insets bottom="5.0" />
+                                             </VBox.margin>
+                                          </ImageView>
+                                          <Label alignment="TOP_CENTER" text="UI framework">
+                                             <font>
+                                                <Font name="Comic Sans MS" size="11.0" />
+                                             </font>
+                                             <VBox.margin>
+                                                <Insets top="-2.0" />
+                                             </VBox.margin>
+                                          </Label>
+                                       </children>
+                                    </VBox>
+                                 </children>
+                              </StackPane>
+                           </children>
+                        </StackPane>
+                        <StackPane prefHeight="135.0" prefWidth="132.0" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                           <children>
+                              <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#c5dceb" height="121.0" stroke="#3a46a6" strokeType="INSIDE" style="-fx-arc-height: 30; -fx-arc-width: 30;" width="98.0" />
+                              <StackPane prefHeight="135.0" prefWidth="132.0">
+                                 <children>
+                                    <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0">
+                                       <children>
+                                          <ImageView fitHeight="85.0" fitWidth="90.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../pictures/download.jpg" />
+                                             </image>
+                                             <VBox.margin>
+                                                <Insets bottom="5.0" />
+                                             </VBox.margin>
+                                          </ImageView>
+                                          <Label alignment="TOP_CENTER" text="Infographic">
+                                             <font>
+                                                <Font name="Comic Sans MS" size="11.0" />
+                                             </font>
+                                             <VBox.margin>
+                                                <Insets top="-2.0" />
+                                             </VBox.margin>
+                                          </Label>
+                                       </children>
+                                    </VBox>
+                                 </children>
+                              </StackPane>
+                           </children>
+                        </StackPane>
+                     </children>
+                  </GridPane>
+               </content>
+            </ScrollPane>
+            <ImageView fitHeight="95.0" fitWidth="129.0" layoutX="121.0" layoutY="85.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../pictures/desigingicone.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="135.0" layoutY="171.0" text="Designing">
+               <font>
+                  <Font name="Comic Sans MS Bold" size="15.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="68.0" fitWidth="41.0" layoutX="281.0" layoutY="503.0" onMouseClicked="#back" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../pictures/back.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#7db7cf" height="76.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="340.0" />
+      <MenuButton layoutX="15.0" layoutY="12.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="68.0" style="-fx-color: #7DB7CF; -fx-background-radius: 22;" textFill="#191e96">
+        <items>
+          <MenuItem mnemonicParsing="false" text="Profile" />
+          <MenuItem mnemonicParsing="false" onAction="#Exit" text="Log out" />
+        </items>
+         <font>
+            <Font name="Comic Sans MS" size="15.0" />
+         </font>
+      </MenuButton>
+      <ImageView fitHeight="41.0" fitWidth="47.0" layoutX="15.0" layoutY="12.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../pictures/accicone.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="76.0" fitWidth="104.0" layoutX="110.0" layoutY="5.0">
+         <image>
+            <Image url="@../pictures/لوقو%20ام%20القرى3.png" />
+         </image>
+      </ImageView>
+      <Pane layoutX="225.0" layoutY="8.0" prefHeight="71.0" prefWidth="102.0">
+         <children>
+            <Label layoutX="44.0" layoutY="-1.0" prefHeight="62.0" prefWidth="71.0">
+               <contextMenu>
+                  <ContextMenu>
+                    <items>
+                      <MenuItem mnemonicParsing="false" text="My Requests" />
+                        <MenuItem mnemonicParsing="false" onAction="#handleSwitch" text="Change to Provider" />
+                        <MenuItem mnemonicParsing="false" text="Help" />
+                    </items>
+                  </ContextMenu>
+               </contextMenu>
+               <graphic>
+                  <ImageView fitHeight="57.0" fitWidth="62.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../pictures/menuicone.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Label>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

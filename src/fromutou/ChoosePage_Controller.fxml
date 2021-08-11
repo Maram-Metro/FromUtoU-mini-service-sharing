@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="550.0" prefWidth="335.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fromutou.ChoosePage_Controller">
+   <children>
+      <ImageView fitHeight="550.0" fitWidth="340.0" layoutY="-1.0" opacity="0.5">
+         <image>
+            <Image url="@../pictures/خلفية%20سماوي.png" />
+         </image>
+      </ImageView>
+      <Button alignment="BOTTOM_CENTER" layoutX="95.0" layoutY="91.0" mnemonicParsing="false" onMouseClicked="#move_provider" opacity="0.88" prefHeight="195.0" prefWidth="151.0" style="-fx-background-color: #a1d4f0; -fx-border-color: gray;" text="PROVIDER">
+         <font>
+            <Font name="Comic Sans MS Bold" size="22.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="151.0" fitWidth="149.0" layoutX="96.0" layoutY="92.0" onMouseClicked="#move_provider">
+         <image>
+            <Image url="@../pictures/f4b107ec98a8cb25fc3f58fc132b42bf.jpg" />
+         </image>
+      </ImageView>
+      <Button alignment="BOTTOM_CENTER" layoutX="95.0" layoutY="310.0" mnemonicParsing="false" onMouseClicked="#move_asker" opacity="0.92" prefHeight="195.0" prefWidth="151.0" style="-fx-background-color: #a1d4f0; -fx-border-color: gray;" text="ASKER">
+         <font>
+            <Font name="Comic Sans MS Bold" size="22.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="151.0" fitWidth="149.0" layoutX="96.0" layoutY="311.0" onMouseClicked="#move_asker">
+         <image>
+            <Image url="@../pictures/3151d4dedb7c903fa54f70c6006b4b2c.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="77.0" fitWidth="85.0" layoutX="128.0" layoutY="14.0">
+         <image>
+            <Image url="@../pictures/لوقو%20ام%20القرى3.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="550.0" prefWidth="340.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fromutou.AddServiceController">
+   <children>
+      <ImageView fitHeight="550.0" fitWidth="340.0">
+         <image>
+            <Image url="@../pictures/خلفية%20سماوي.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="65.0" fitWidth="93.0" layoutX="124.0" layoutY="14.0">
+         <image>
+            <Image url="@../pictures/لوقو%20ام%20القرى3.png" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="453.0" layoutX="14.0" layoutY="83.0" opacity="0.42" stroke="#3a46a6" strokeType="INSIDE" strokeWidth="0.0" style="-fx-arc-height: 30; -fx-arc-width: 30;" width="314.0" />
+      <Text fill="#191e96" layoutX="30.0" layoutY="116.0" stroke="#060826" strokeType="OUTSIDE" strokeWidth="0.0" text="Please fill the next form to add the service :" wrappingWidth="282.8033447265625">
+         <font>
+            <Font name="Comic Sans MS Bold" size="17.0" />
+         </font>
+      </Text>
+      <Button layoutX="200.0" layoutY="500.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="120.0" style="-fx-background-radius: 22; -fx-color: #ffff;" text="Add the service" textFill="#191e96">
+         <font>
+            <Font name="Comic Sans MS" size="13.0" />
+         </font>
+      </Button>
+      <ScrollPane layoutX="21.0" layoutY="155.0" prefHeight="340.0" prefWidth="299.0" style="-fx-background-radius: 7; -fx-color: #ffff;">
+         <content>
+            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="771.0" prefWidth="272.0" style="-fx-background-color: #ffff;">
+               <children>
+                  <Text fill="#6c95b6" layoutX="31.0" layoutY="38.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Service name:" wrappingWidth="219.12384033203125">
+                     <font>
+                        <Font name="Comic Sans MS Bold" size="14.0" />
+                     </font>
+                  </Text>
+                  <TextField layoutX="128.0" layoutY="19.0" prefHeight="28.0" prefWidth="145.0" style="-fx-border-width: 2px;">
+                     <cursor>
+                        <Cursor fx:constant="TEXT" />
+                     </cursor>
+                  </TextField>
+                  <Text fill="#6c95b6" layoutX="31.0" layoutY="84.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Classification:" wrappingWidth="161.79046630859375">
+                     <font>
+                        <Font name="Comic Sans MS Bold" size="14.0" />
+                     </font>
+                  </Text>
+                  <ComboBox layoutX="126.0" layoutY="66.0" prefHeight="25.0" prefWidth="146.0" style="-fx-border-width: 2px; -fx-color: #ffff;">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </ComboBox>
+                  <Text fill="#6c95b6" layoutX="30.0" layoutY="129.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Initial price:" wrappingWidth="161.79046630859375">
+                     <font>
+                        <Font name="Comic Sans MS Bold" size="14.0" />
+                     </font>
+                  </Text>
+                  <TextField layoutX="127.0" layoutY="109.0" prefHeight="28.0" prefWidth="64.0" style="-fx-border-width: 2px;">
+                     <cursor>
+                        <Cursor fx:constant="TEXT" />
+                     </cursor>
+                  </TextField>
+                  <Text fill="#6c95b6" layoutX="30.0" layoutY="175.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Description:" wrappingWidth="161.79046630859375">
+                     <font>
+                        <Font name="Comic Sans MS Bold" size="14.0" />
+                     </font>
+                  </Text>
+                  <TextArea layoutX="127.0" layoutY="160.0" prefHeight="148.0" prefWidth="151.0" style="-fx-border-width: 2px;" />
+                  <Text fill="#6c95b6" layoutX="30.0" layoutY="344.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Communicate through:" wrappingWidth="161.79046630859375">
+                     <font>
+                        <Font name="Comic Sans MS Bold" size="14.0" />
+                     </font>
+                  </Text>
+                  <CheckBox layoutX="127.0" layoutY="352.0" mnemonicParsing="false" style="-fx-color: #ffff;" text="Whatsup" textFill="#6c95b6">
+                     <font>
+                        <Font name="Comic Sans MS Bold" size="13.0" />
+                     </font>
+                  </CheckBox>
+                  <CheckBox layoutX="127.0" layoutY="415.0" mnemonicParsing="false" style="-fx-color: #ffff;" text="Email" textFill="#6c95b6">
+                     <font>
+                        <Font name="Comic Sans MS Bold" size="13.0" />
+                     </font>
+                  </CheckBox>
+                  <CheckBox layoutX="126.0" layoutY="475.0" mnemonicParsing="false" style="-fx-color: #ffff;" text="Instagram" textFill="#6c95b6">
+                     <font>
+                        <Font name="Comic Sans MS Bold" size="13.0" />
+                     </font>
+                  </CheckBox>
+                  <CheckBox layoutX="126.0" layoutY="535.0" mnemonicParsing="false" style="-fx-color: #ffff;" text="Twitter" textFill="#6c95b6">
+                     <font>
+                        <Font name="Comic Sans MS Bold" size="13.0" />
+                     </font>
+                  </CheckBox>
+                  <TextField layoutX="127.0" layoutY="375.0" prefHeight="28.0" prefWidth="93.0" style="-fx-border-width: 2px;">
+                     <cursor>
+                        <Cursor fx:constant="TEXT" />
+                     </cursor>
+                  </TextField>
+                  <TextField layoutX="126.0" layoutY="438.0" prefHeight="28.0" prefWidth="89.0" style="-fx-border-width: 2px;">
+                     <cursor>
+                        <Cursor fx:constant="TEXT" />
+                     </cursor>
+                  </TextField>
+                  <TextField layoutX="126.0" layoutY="498.0" prefHeight="28.0" prefWidth="89.0" style="-fx-border-width: 2px;">
+                     <cursor>
+                        <Cursor fx:constant="TEXT" />
+                     </cursor>
+                  </TextField>
+                  <TextField layoutX="126.0" layoutY="559.0" prefHeight="28.0" prefWidth="89.0" style="-fx-border-width: 2px;">
+                     <cursor>
+                        <Cursor fx:constant="TEXT" />
+                     </cursor>
+                  </TextField>
+                  <Text fill="#6c95b6" layoutX="26.0" layoutY="632.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Photos/Videos:" wrappingWidth="161.79046630859375">
+                     <font>
+                        <Font name="Comic Sans MS Bold" size="14.0" />
+                     </font>
+                  </Text>
+                  <Button layoutX="125.0" layoutY="612.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="120.0" style="-fx-color: #ffff;" text="choose files" textFill="#6c95b6">
+                     <font>
+                        <Font name="Comic Sans MS" size="13.0" />
+                     </font>
+                  </Button>
+                  <Text fill="#6c95b6" layoutX="26.0" layoutY="691.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Pay method:" wrappingWidth="161.79046630859375">
+                     <font>
+                        <Font name="Comic Sans MS Bold" size="14.0" />
+                     </font>
+                  </Text>
+                  <CheckBox layoutX="124.0" layoutY="725.0" mnemonicParsing="false" style="-fx-color: #ffff;" text="Visa" textFill="#6c95b6">
+                     <font>
+                        <Font name="Comic Sans MS Bold" size="13.0" />
+                     </font>
+                  </CheckBox>
+                  <CheckBox layoutX="124.0" layoutY="748.0" mnemonicParsing="false" style="-fx-color: #ffff;" text="Cash" textFill="#6c95b6">
+                     <font>
+                        <Font name="Comic Sans MS Bold" size="13.0" />
+                     </font>
+                  </CheckBox>
+                  <CheckBox layoutX="124.0" layoutY="702.0" mnemonicParsing="false" style="-fx-color: #ffff;" text="Mada card" textFill="#6c95b6">
+                     <font>
+                        <Font name="Comic Sans MS Bold" size="13.0" />
+                     </font>
+                  </CheckBox>
+                  <CheckBox layoutX="124.0" layoutY="677.0" mnemonicParsing="false" style="-fx-color: #ffff;" text="Free service" textFill="#6c95b6">
+                     <font>
+                        <Font name="Comic Sans MS Bold" size="13.0" />
+                     </font>
+                  </CheckBox>
+                  <ImageView fitHeight="18.0" fitWidth="22.0" layoutX="6.0" layoutY="115.0">
+                     <image>
+                        <Image url="@../pictures/7a9c563a5c1264e41015083fd7dcc731.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="29.0" fitWidth="27.0" layoutX="4.0" layoutY="17.0">
+                     <image>
+                        <Image url="@../pictures/service.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="29.0" fitWidth="26.0" layoutX="4.0" layoutY="64.0">
+                     <image>
+                        <Image url="@../pictures/582083-200.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="29.0" fitWidth="27.0" layoutX="3.0" layoutY="155.0">
+                     <image>
+                        <Image url="@../pictures/description+outline+problem+task+tasks+taskstroke+icon-1320168114572144822.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="29.0" fitWidth="30.0" layoutX="1.0" layoutY="323.0">
+                     <image>
+                        <Image url="@../pictures/33371d19a66414c9dc7f2a66652eaa6f.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="28.0" fitWidth="26.0" layoutY="614.0">
+                     <image>
+                        <Image url="@../pictures/photo-video.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="25.0" fitWidth="22.0" layoutX="1.0" layoutY="673.0">
+                     <image>
+                        <Image url="@../pictures/60378.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+         </content>
+      </ScrollPane>
+      <ImageView fitHeight="29.0" fitWidth="43.0" layoutX="14.0" layoutY="14.0" onMouseClicked="#back" rotate="-176.2">
+         <image>
+            <Image url="@../pictures/back.png" />
+         </image>
+      </ImageView>
+   </children>
+</Pane>
