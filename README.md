@@ -38,31 +38,32 @@ Askers can:
 
 ## 📸 Screenshots
 
-### Provider Dashboard
-Shows all services added by the provider:
+### Welcome Screen
 
-![Provider Services](./screenshots/proider_services.png)
+This is the first screen users see when they launch the app. It shows the app's branding and a welcome message to start the experience:
 
----
-
-### Add Service – Step 1
-Enter service name, classification, price, and description:
-
-![Add Service - Step 3](./screenshots/add_service_1.png)
+![Provider Services](./screenshots/app_welcome_screen.png)
 
 ---
 
-### Add Service – Step 2
-Provide communication details and upload media:
+### User Role Selection
+After logging in, users choose whether they want to offer services (Provider) or request services (Asker), guiding them to tailored experiences:
 
-![Add Service - Step 3](./screenshots/add_service_2.png)
+![Add Service - Step 3](./screenshots/choose_user_role.png)
 
 ---
 
-### Add Service – Step 3
-Choose payment methods and finalize submission:
+### Service Categories
+Providers can classify their services under different categories like Drawing, Programming, Designing, or Others. Users can also search for specific services using the search bar.:
 
-![Add Service - Step 3](./screenshots/add_service_3.png)
+![Add Service - Step 3](./screenshots/service_categories.png)
+
+---
+
+### Provider Services
+This is the provider's main page, showcasing all the services they’ve added:
+
+![Add Service - Step 3](./screenshots/proider_services.png)
 
 ---
 
