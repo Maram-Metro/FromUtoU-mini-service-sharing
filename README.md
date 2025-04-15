@@ -1,90 +1,64 @@
 # FromUtoU App
 
-**From You To You** is a user-friendly desktop application that enables service providers to publish and showcase their offerings in a clean, categorized format. Whether it’s programming work, design services, or personal assistance, this app makes it easy for providers to present and manage their services.
+📱 From You To You – Mini Service Sharing App
+From You To You is a service-sharing application that connects two types of users:
 
----
+💼 Providers who offer services.
 
-## 💡 About the Project
+🔍 Askers who browse and benefit from these services.
 
-This application allows service providers to:
+The app creates a simple bridge between people who want to offer something and those who need it.
 
-- Add and organize their services with full details
-- Categorize their offerings (e.g., Java Projects, Web Pages, Databases, etc.)
-- Share communication options (WhatsApp, Email, Instagram, Twitter)
-- Upload photos or videos related to their services
-- Set payment options (Free, Visa, Mada, Cash)
+✨ Features
+👤 For Providers (Service Owners)
+Add a new service with:
 
----
+Name, classification, initial price, and description.
 
-## 📸 Screenshots
+Contact methods (WhatsApp, Email, Instagram, Twitter).
 
-### 🧑‍💻 Provider Services Page
-This is the provider's main page, showcasing all the services they’ve added:
+Media files (photos/videos).
 
-![Provider Services](./screenshots/proider_services.png)
+Preferred payment methods (Free, Mada, Visa, Cash).
 
----
+View all services they've added in a personal dashboard.
 
-### ➕ Add a New Service – Step 1
-Basic service details:  
-- Name  
-- Category  
-- Price  
-- Description  
+Manage or update services (in the future).
 
-![Add Service - Step 1](./screenshots/add_service_1.png)
+🔎 For Askers (Service Seekers)
+Browse a list of services based on categories like:
 
----
+Java Projects
 
-### ➕ Add a New Service – Step 2
-Communication methods and media uploads:
+Web Pages
 
-![Add Service - Step 2](./screenshots/add_service_2.png)
+Databases
 
----
+PHP Scripts
 
-### ➕ Add a New Service – Step 3
-Payment methods:
+View service details.
 
-![Add Service - Step 3](./screenshots/add_service_3.png)
+Reach out directly to the provider through the available contact options.
 
----
+Choose a payment method if required.
 
-## 🛠️ Tech Stack
+📸 Screenshots
 
-- **Language:** Java
-- **UI Framework:** JavaFX
-- **Development Platform:** Desktop (Windows)
+Provider Dashboard	Add Service Form (Step 1)	Add Service Form (Step 2)	Add Service Form (Step 3)
+🛠️ Technologies Used
+Language: Java
 
----
+GUI Framework: JavaFX
 
-## ✅ Features
+Design: Scrollable panels for multi-step form
 
-- Intuitive step-by-step form for adding services
-- Scrollable, responsive UI
-- Icon-based visual cues for clarity
-- Multiple communication channels supported
-- Media attachment support
-- Flexible payment method options
+Structure: Separation between Provider and Asker roles
 
----
+🚧 Future Improvements
+Add a login system to distinguish between Askers and Providers.
 
-## 👩‍💻 Developed by
+Allow Askers to favorite or rate services.
 
-[Maram Metro](https://github.com/Maram-Metro)  
-*Computer Science graduate passionate about developing meaningful, user-centric applications.*
+Add a search and filter system for easier browsing.
 
----
-
-## 📂 Repository Structure (Suggested)
-
-FromUtoU/
-│ 
-├── src/ # Java source files 
-├── assets/ # Images, icons, styles 
-│ └── screenshots/ # UI screenshots for README 
-├── README.md # Project description 
-└── LICENSE # (optional) Open-source license
-
-
-
+Include notifications for Providers when someone shows interest.
