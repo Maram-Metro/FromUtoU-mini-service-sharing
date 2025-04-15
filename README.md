@@ -41,28 +41,28 @@ Askers can:
 ### Provider Dashboard
 Shows all services added by the provider:
 
-![Provider Dashboard](./service_categories.png)
+![Provider Services](./screenshots/proider_services.png)
 
 ---
 
 ### Add Service – Step 1
 Enter service name, classification, price, and description:
 
-![Add Service Step 1](./add_service_1.png)
+![Add Service - Step 3](./screenshots/add_service_1.png)
 
 ---
 
 ### Add Service – Step 2
 Provide communication details and upload media:
 
-![Add Service Step 2](./add_service_2.png)
+![Add Service - Step 3](./screenshots/add_service_2.png)
 
 ---
 
 ### Add Service – Step 3
 Choose payment methods and finalize submission:
 
-![Add Service Step 3](./add_service_3.png)
+![Add Service - Step 3](./screenshots/add_service_3.png)
 
 ---
 
