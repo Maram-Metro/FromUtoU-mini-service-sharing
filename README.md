@@ -1,64 +1,103 @@
-# FromUtoU App
+# 📱 FromUtoU
 
-📱 From You To You – Mini Service Sharing App
-From You To You is a service-sharing application that connects two types of users:
+**From You To You** is a mini service-sharing application that connects two types of users:
 
-💼 Providers who offer services.
+- 💼 **Providers** – who offer services.
+- 🔍 **Askers** – who browse and benefit from services.
 
-🔍 Askers who browse and benefit from these services.
+This simple app builds a smooth bridge between those who want to **offer** and those who want to **ask**.
 
-The app creates a simple bridge between people who want to offer something and those who need it.
+---
 
-✨ Features
-👤 For Providers (Service Owners)
-Add a new service with:
+## ✨ Features
 
-Name, classification, initial price, and description.
+### 👤 For Providers
+Providers can:
+- Add new services by filling a 3-step form that includes:
+  - 📝 **Basic Info**: Name, classification, price, description.
+  - 📞 **Contact Info**: WhatsApp, Email, Instagram, Twitter.
+  - 🖼️ **Media & Payment**: Upload photos/videos, select payment methods (Free, Mada card, Visa, Cash).
+- View all previously added services in a personal dashboard.
+- Organize their offerings by category.
 
-Contact methods (WhatsApp, Email, Instagram, Twitter).
+### 🔎 For Askers
+Askers can:
+- Browse available services through categories such as:
+  - Java Projects
+  - Web Pages
+  - PHP Scripts
+  - Databases
+- View details of each service including:
+  - Description
+  - Contact options
+  - Media
+  - Payment method
+- Contact the provider directly using the provided links.
 
-Media files (photos/videos).
+---
 
-Preferred payment methods (Free, Mada, Visa, Cash).
+## 📸 Screenshots
 
-View all services they've added in a personal dashboard.
+### Provider Dashboard
+Shows all services added by the provider:
 
-Manage or update services (in the future).
+![Provider Dashboard](./provider_services.png)
 
-🔎 For Askers (Service Seekers)
-Browse a list of services based on categories like:
+---
 
-Java Projects
+### Add Service – Step 1
+Enter service name, classification, price, and description:
 
-Web Pages
+![Add Service Step 1](./add_service_1.png)
 
-Databases
+---
 
-PHP Scripts
+### Add Service – Step 2
+Provide communication details and upload media:
 
-View service details.
+![Add Service Step 2](./add_service_2.png)
 
-Reach out directly to the provider through the available contact options.
+---
 
-Choose a payment method if required.
+### Add Service – Step 3
+Choose payment methods and finalize submission:
 
-📸 Screenshots
+![Add Service Step 3](./add_service_3.png)
 
-Provider Dashboard	Add Service Form (Step 1)	Add Service Form (Step 2)	Add Service Form (Step 3)
-🛠️ Technologies Used
-Language: Java
+---
 
-GUI Framework: JavaFX
+## 🛠️ Tech Stack
 
-Design: Scrollable panels for multi-step form
+- **Language**: Java  
+- **UI Framework**: JavaFX  
+- **Design Style**: Clean, scrollable multi-step form  
+- **Data Handling**: Locally managed (placeholder for database integration)
 
-Structure: Separation between Provider and Asker roles
+---
 
-🚧 Future Improvements
-Add a login system to distinguish between Askers and Providers.
+## 🚀 Future Enhancements
 
-Allow Askers to favorite or rate services.
+- Implement user authentication (for Askers and Providers)
+- Add a search & filter system for services
+- Allow Askers to rate or favorite services
+- Enable Providers to edit or delete services
+- Support for notifications when a service gets interest
 
-Add a search and filter system for easier browsing.
+---
 
-Include notifications for Providers when someone shows interest.
+## 📂 Project Structure
+
+```bash
+FromYouToYou/
+├── src/
+│   ├── Main.java
+│   ├── views/
+│   │   ├── ProviderDashboard.java
+│   │   ├── AddServiceStep1.java
+│   │   ├── AddServiceStep2.java
+│   │   └── AddServiceStep3.java
+│   └── models/
+│       └── Service.java
+├── assets/
+│   └── images/
+├── README.md
