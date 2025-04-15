@@ -1,38 +1,42 @@
 # 📱 FromUtoU
 
-**From You To You** is a mini service-sharing application that connects two types of users:
-
-- 💼 **Providers** – who offer services.
-- 🔍 **Askers** – who browse and benefit from services.
-
-This simple app builds a smooth bridge between those who want to **offer** and those who want to **ask**.
+**From You To You** is a dual-role service-sharing application where users can either **offer services (Provider)** or **request services (Asker)** — all within a beautifully organized Java-based desktop interface.
 
 ---
 
-## ✨ Features
+## 💡 What Does It Do?
 
-### 👤 For Providers
-Providers can:
-- Add new services by filling a 3-step form that includes:
-  - 📝 **Basic Info**: Name, classification, price, description.
-  - 📞 **Contact Info**: WhatsApp, Email, Instagram, Twitter.
-  - 🖼️ **Media & Payment**: Upload photos/videos, select payment methods (Free, Mada card, Visa, Cash).
-- View all previously added services in a personal dashboard.
-- Organize their offerings by category.
+This application connects individuals with services to offer, and individuals looking for help. It allows users to:
 
-### 🔎 For Askers
-Askers can:
-- Browse available services through categories such as:
-  - Java Projects
-  - Web Pages
-  - PHP Scripts
-  - Databases
-- View details of each service including:
-  - Description
-  - Contact options
-  - Media
-  - Payment method
-- Contact the provider directly using the provided links.
+- Choose their role: **Provider** or **Asker**
+- Switch roles at any time
+- Browse available services by category
+- Add new services through a step-by-step form
+- View and manage services in a personal dashboard
+
+---
+
+## ✨ Key Features
+
+### 🔹 For All Users
+- Select user role (Provider / Asker)
+- Intuitive UI and icon-based guidance
+- Browse categorized services (Design, Programming, Drawing, and more)
+
+### 💼 As a Provider
+- Add services with:
+  - Title, category, price, and description
+  - Contact info (WhatsApp, Email, Instagram, Twitter)
+  - Media files (images or video)
+  - Payment method selection (Free, Mada, Visa, Cash)
+- View all personal services in a dashboard
+
+### 🔍 As an Asker
+- Browse services grouped by category
+- Explore service details and contact providers
+- No login required to view services (optional in future version)
+- Ability to search and filter services
+
 
 ---
 
@@ -69,36 +73,47 @@ This is the provider's main page, showcasing all the services they’ve added:
 
 ## 🛠️ Tech Stack
 
-- **Language**: Java  
-- **UI Framework**: JavaFX  
-- **Design Style**: Clean, scrollable multi-step form  
-- **Data Handling**: Locally managed (placeholder for database integration)
+- **Language:** Java  
+- **UI:** JavaFX + FXML  
+- **Structure:** Role-based dynamic interface  
+- **Data:** Local handling (no backend integration yet)
 
 ---
 
-## 🚀 Future Enhancements
-
-- Implement user authentication (for Askers and Providers)
-- Add a search & filter system for services
-- Allow Askers to rate or favorite services
-- Enable Providers to edit or delete services
-- Support for notifications when a service gets interest
-
----
-
-## 📂 Project Structure
+## 🗂️ Project Structure
 
 ```bash
-FromYouToYou/
-├── src/
-│   ├── Main.java
-│   ├── views/
-│   │   ├── ProviderDashboard.java
-│   │   ├── AddServiceStep1.java
-│   │   ├── AddServiceStep2.java
-│   │   └── AddServiceStep3.java
-│   └── models/
-│       └── Service.java
-├── assets/
-│   └── images/
+FromUtoU/
+├── FromUtoU.iml
 ├── README.md
+├── out/                      # Compiled output (if any)
+├── screenshots/              # UI images for documentation
+├── src/                      # Source files
+│   └── com/
+│       └── example/
+│           └── fromuto/      # All Java source and FXML files
+│               ├── AddServices1.fxml
+│               ├── AddServices2.fxml
+│               ├── AddServices3.fxml
+│               ├── Design.fxml
+│               ├── Drawing.fxml
+│               ├── Programming.fxml
+│               ├── ServiceDetails.fxml
+│               └── ...etc
+
+
+🚀 Future Plans
+🔒 User authentication
+
+🧠 Smart filtering and recommendations
+
+⭐ Ratings & feedback from Askers
+
+📥 Service request & direct chat system
+
+🌐 Hosting on web or mobile via Flutter (possible extension)
+
+👩‍💻 Developer
+Made with 💜 by Maram-Metro
+Explore my Portfolio
+
