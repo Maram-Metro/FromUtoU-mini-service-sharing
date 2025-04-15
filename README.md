@@ -41,7 +41,7 @@ Askers can:
 ### Provider Dashboard
 Shows all services added by the provider:
 
-![Provider Dashboard](./provider_services.png)
+![Provider Dashboard](./service_categories.png)
 
 ---
 
