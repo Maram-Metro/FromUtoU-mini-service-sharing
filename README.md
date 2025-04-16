@@ -80,28 +80,6 @@ This is the provider's main page, showcasing all the services they’ve added:
 
 ---
 
-## 🗂️ Project Structure
-
-```bash
-FromUtoU/
-├── FromUtoU.iml
-├── README.md
-├── out/                      # Compiled output (if any)
-├── screenshots/              # UI images for documentation
-├── src/                      # Source files
-│   └── com/
-│       └── example/
-│           └── fromuto/      # All Java source and FXML files
-│               ├── AddServices1.fxml
-│               ├── AddServices2.fxml
-│               ├── AddServices3.fxml
-│               ├── Design.fxml
-│               ├── Drawing.fxml
-│               ├── Programming.fxml
-│               ├── ServiceDetails.fxml
-│               └── ...etc
-```
-
 🚀 Future Plans
 🔒 User authentication
 
